@@ -16,6 +16,7 @@ repositories {
 }
 
 jar{
+    System.out.println("======== MAKING JAR FILE =======");
     manifest {
        attributes 'Main-Class' : 'helloworld'
     }
