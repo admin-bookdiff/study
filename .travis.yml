@@ -1,9 +1,0 @@
-language: groovy
-before_install:
-  - chmod +x gradlew
-jdk:
- - oraclejdk7
-branches:
- only:
- - helooworld
- script: jar
